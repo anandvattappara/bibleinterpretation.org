@@ -203,3 +203,9 @@ function getcategoryfullname(){
     }    
     return $fullname;   
 }
+
+add_filter( 'login_url', 'custom_login_url', PHP_INT_MAX );
+function custom_login_url( $login_url ) {
+	$login_url = site_url( 'login.php', 'login' );	
+    return $login_url;
+}
