@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+#intro {
+        background-image:url("../images/header-banner.png");
+        height: 100vh;
+      }
+#johnintro {
+        background-image:url("../images/johnbanner.jpg");
+        height: 100vh;
+      }
+#joyword {
+        background-image:url("../images/bannerone.png");
+        height: 75vh;
+	    background-repeat: no-repeat;
+	    background-position: right;
+      }
+.mt25{ margin-top: 25px;}
+.mt35{ margin-top: 35px;}
+.pad25{padding: 25px}
+.topbar{ background-color: #fff6f6;}
+.topbartext{float: right; font-size: 16px; font-weight: 500; color: #dd4239; padding: 15px;}
+.navbarbg{ background-color: transparent!important; padding-bottom: 0;}
+.navtext li{color: #f2e9e9; font-size: 16px; padding: 0 15px; margin-top: 50px;}
+.navtext li a{color: #f2e9e9; text-decoration: none;}
+.navtext .nav-link.active{color: #f2e9e9;}
+.aboutsec{  background-color: #fff6f6;}
+.cmnsecpad{ padding: 60px 0;}
+.cmnsecpadbot{ padding-bottom: 60px;}
+.cmnsecpadtop{ padding-top: 60px;}
+.cmnhead{ font-size: 25px; color: #333333; font-weight: 600;}
+.cmntext{ font-size: 18px; color: #777777; line-height: 30px;}
+.redtxt{ font-size: 18px; color: #db362c; line-height: 30px; font-weight: 500;}
+.bannermask{margin-top: 15%; position: absolute;}
+.bannertxt{text-align: left;}
+
+    #parallelogram {
+      width: 52%;
+      height: auto;
+      transform: skew(-20deg);
+      background: red;
+	  text-align: center;
+		float: left;
+    }
+#parallelograminside {
+      width: 25%;
+      height: auto;
+      transform: skew(-20deg);
+      background: red;
+	  text-align: center;
+		float: left;
+    }
+.bannersubtxt{color: #f2e9e9; font-weight: normal;}
+.headborder {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #db362c;
+    margin: 20px auto 30px;
+}
+.bannerborder {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #db362c;
+    margin: 80px 0 30px;
+}
+.headborderbanner{ margin-bottom: 35px; line-height: 35px;}
+.togicon{ background-image:url("../images/tbicon.png")}
+.ttrans{transform: skew(20deg);}
+.johnheadborder {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #db362c;
+    margin: 30px 0 30px;
+}
+.headerhr{ border-color: #ffffff; margin: 0!important;}
+.abtcontainer{max-width: 750px;}
+.joycontainer{max-width: 1000px;}
+.imgborder{ border: 1px solid #dddddd;}
+.relwebimg{ width: 140px;}
+.relwebimg p { margin-top: 15px; font-weight: 500;}
+.relwebimg a { text-decoration: none; color: #db362c;}
+.footersec{  background-color: #fff6f6;}
+.footerlink{margin: 25px 0;}
+.footerlink li { font-size:16px; padding:0 20px; font-weight: 500;}
+.footerlink li a{ text-decoration:none; color:#444444;}
+.footertext{ color:#444444; font-size:13px; padding-bottom: 15px;}
+.ariconright{ float: right; color: #db362c; font-size: 25px;}
+.biblinklist li{ font-size: 18px; color: #444444; padding-left: 0;}
+.biblinklist li a{color: #444444; text-decoration: none; }
+.navilink:hover{ color:#dd4239;}
+.navbar-nav .navilink.active{ border-bottom: 2px solid #ffffff; padding-bottom: 50px;}
+#topMenu li.menu-item a{
+    padding-bottom: 50px;
+	display:block;
+}
+#topMenu li.current-menu-item a{
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 50px;
+	display:block;
+}
+#topMenu li.menu-item{
+    color: #f2e9e9;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-top: 50px!important;
+}
+ul.list-inline li.menu-item{display: inline-block;font-size: 16px;
+    padding: 0 20px;
+    font-weight: 500;}
+ul.list-inline li.menu-item a{    text-decoration: none;
+    color: #444444;}
+.buybutton{font-weight:500; font-size:18px; padding:10px 30px; margin-top:30px;}
+.featuredimage{text-align:center; margin:0 0 30px 0}
+.featuredimage img{border:1px solid #ddd}
+@media only screen and (max-width: 768px){
+	.footerlink li { padding:0 12px;}
+	.navbar-nav .navilink.active{padding-bottom: 20px;}
+	.navtext li{ margin-top: 20px;}
+	.relwebimg{width: 100%;}
+	#topMenu li.menu-item{ margin:0px!important; padding:10px 0px!important;}
+	#topMenu li.menu-item a{
+    padding-bottom: 10px;
+	display:block;
+	}
+	#parallelograminside {
+    width: 100%;
+    height: auto;
+    transform: skew(-20deg);
+    background: red;
+    text-align: center;
+    float: left;
+}
+}
