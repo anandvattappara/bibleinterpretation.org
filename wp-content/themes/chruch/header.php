@@ -23,7 +23,7 @@
 	<link href="<?PHP echo get_template_directory_uri()?>/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
   	<link href="<?PHP echo get_template_directory_uri()?>/assets/fontawesome/css/brands.css" rel="stylesheet">
   	<link href="<?PHP echo get_template_directory_uri()?>/assets/fontawesome/css/solid.css" rel="stylesheet">
-	
+	<link rel="icon" href="<?PHP echo get_template_directory_uri()?>/assets/images/favicon.png"/>
 	<?php wp_head(); ?>
 </head>
 <body>
