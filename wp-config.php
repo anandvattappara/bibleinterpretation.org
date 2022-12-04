@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'bibleinterpretation' );
+define( 'DB_NAME', 'bible_bibleinterpretation' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'bible_user' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'b%h905Xr' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
