@@ -80,10 +80,11 @@ get_header();
 			<div class="container clearfix">
 				<div class="row">
 				<div class="col-md-6 col-sm-12 clearfix">
-					
+				<div class="cmnhead"><?PHP echo wpautop(of_get_option('theme_home_book_title'));?></div>
+				<div class="pad25"></div>	
 				<div class="cmntext clearfix">
 				<?PHP echo wpautop(of_get_option('theme_home_book_desc'));?>
-				<p class="text-center"><a href="<?PHP echo of_get_option('theme_home_book_url');?>" target="_blank" class="btn btn-danger buybutton">Buy Online</a></p>
+				
 				</div>
 				</div>
 				<div class="col-md-6 col-sm-12 clearfix">

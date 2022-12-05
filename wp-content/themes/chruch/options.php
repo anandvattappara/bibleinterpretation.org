@@ -101,7 +101,14 @@ function optionsframework_options() {
 		'type' => 'editor',
         'settings' => $wp_editor_settings );
 
-		
+	
+	$options[] = array(
+		'name' => __('Home Page Book Title', 'options_check'),
+		'desc' => __('', ''),
+		'id' => 'theme_home_book_title',
+		'std' => '',
+		'type' => 'text');
+			
 	$options[] = array(
 		'name' => __('Home Page Book Introduction', 'options_check'),
 		'desc' => __('', ''),
