@@ -90,7 +90,7 @@ if (function_exists('z_taxonomy_image_url')) {
 						<ul class="list-group list-group-flush">
 						<?php if ( have_posts() ){ ?>
 						<?php while ( have_posts() ) : the_post();  ?>
-						<li class="list-group-item"><a href="<?php the_permalink(); ?>"><?PHP the_title(); ?></a></li>
+						<li class="list-group-item"><a href="<?php the_permalink(); ?>"><?PHP the_title(); ?> <i class="fa-regular fa-arrow-up-right-from-square ariconright"></i></a></li>
 						<?php endwhile; ?>
 						<?PHP } ?>
 						  
